@@ -5,152 +5,124 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Keerthana M C - Portfolio</title>
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-      line-height: 1.6;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
     }
-
     header {
-      background-color: #4caf50;
-      color: white;
-      padding: 40px 20px;
+      background-color: #ccff00;
+      padding: 30px 20px;
       text-align: center;
     }
-
     header h1 {
-      font-size: 2.5em;
+      margin: 0;
+      font-size: 2em;
+      color: #222;
     }
-
     header p {
-      font-size: 1.1em;
+      color: #666;
     }
-
     nav {
-      background-color: #333;
-      padding: 10px 0;
       text-align: center;
+      background-color: #222;
+      padding: 10px;
     }
-
     nav a {
       color: white;
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
     }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
     .container {
-      padding: 30px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    section {
-      margin-bottom: 40px;
-      background: white;
       padding: 20px;
-      border-radius: 8px;
+    }
+    .section {
+      background-color: white;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 800px;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     }
-
-    section h2 {
-      color: #4caf50;
-      margin-bottom: 15px;
+    .section h2 {
+      color: #e60033;
     }
-
-    ul {
-      list-style: disc;
-      margin-left: 20px;
-    }
-
-    .contact {
-      text-align: center;
-    }
-
-    .contact a {
-      color: #4caf50;
-      text-decoration: none;
-    }
-
     footer {
-      background-color: #333;
+      background-color: #222;
       color: white;
       text-align: center;
-      padding: 20px;
-      margin-top: 40px;
+      padding: 15px;
+    }
+    .download-btn {
+      background-color: #444;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>Keerthana M C</h1>
-    <p>II Year BCA Student - Prince Shri Venkateshwara Arts and Science College</p>
-  </header>
+<header>
+  <h1>Keerthana M C</h1>
+  <p>II Year BCA Student - Prince Shri Venkateshwara Arts and Science College</p>
+</header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<nav>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#resume">Resume</a>
+</nav>
 
-  <div class="container">
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I am a passionate Computer Application student with a love for creativity and problem-solving. I enjoy building websites, editing visuals, and working on fun little projects that help me grow in tech.</p>
-    </section>
-
-    <section id="education">
-      <h2>Education</h2>
-      <p><strong>University:</strong> University of Madras</p>
-      <p><strong>College:</strong> Prince Shri Venkateshwara Arts and Science College</p>
-      <p><strong>Course:</strong> BCA - II Year</p>
-    </section>
-
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Editing</li>
-        <li>Web Designing</li>
-        <li>Poster Making</li>
-        <li>Python</li>
-        <li>Java</li>
-        <li>C++</li>
-      </ul>
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>Hangman Game (Python)</li>
-        <li>Guess a Number (Python)</li>
-        <li>Digital Portfolio (HTML/CSS)</li>
-        <li>Pattern Calculator with AWT (Java)</li>
-      </ul>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p class="contact">📧 <a href="mailto:keerthanamc@email.com">keerthanamc@email.com</a></p>
-    </section>
+<div class="container">
+  <div id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am a student of Prince Shri Venkateshwara Arts and Science College. Currently in my second year in the Department of Computer Application.</p>
   </div>
 
-  <footer>
-    &copy; 2025 Keerthana M C. All Rights Reserved.
-  </footer>
+  <div id="education" class="section">
+    <h2>Education</h2>
+    <p>University of Madras</p>
+    <p>II Year BCA - Prince Shri Venkateshwara Arts and Science College</p>
+  </div>
+
+  <div id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Editing</li>
+      <li>Web Designing</li>
+      <li>Poster Making</li>
+      <li>Python</li>
+      <li>Java</li>
+      <li>C++</li>
+    </ul>
+  </div>
+
+  <div id="projects" class="section">
+    <h2>Projects</h2>
+    <ul>
+      <li>Hangman Game</li>
+      <li>Guess a Number</li>
+      <li>Digital Portfolio</li>
+      <li>Pattern Calculator with AWT</li>
+    </ul>
+  </div>
+
+  <div id="resume" class="section" style="text-align:center;">
+    <h2>Resume</h2>
+    <a href="resume.pdf" class="download-btn" download>Download CV</a>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 Keerthana M C
+</footer>
 
 </body>
 </html>
